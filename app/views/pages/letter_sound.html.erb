@@ -1,0 +1,20 @@
+<h1><%= @game.name %></h1>
+
+<div>
+  <% @materials.each do |material| %>
+    <div class="letter"><%= material.name %></div>
+  <% end %>
+</div>
+
+<div>
+</div>
+
+<div>
+  <% @exercises.each do |exercise| %>
+    <div class="exercise"><%= exercise.word %> | <%= exercise.level %></div>
+  <% end %>
+</div>
+
+<ul>
+
+</ul>

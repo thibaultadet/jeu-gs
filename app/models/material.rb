@@ -1,6 +1,6 @@
 class Material < ApplicationRecord
-  belongs_to :games
+  belongs_to :game
 
-  validates :type, presence: true
+  validates :category, presence: true
   validates :name, presence: true
 end

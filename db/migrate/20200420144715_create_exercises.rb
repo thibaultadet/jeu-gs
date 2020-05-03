@@ -4,7 +4,7 @@ class CreateExercises < ActiveRecord::Migration[5.2]
       t.string :word
       t.integer :level
       t.boolean :done, default: false
-      t.references :games, foreign_key: true
+      t.references :game, foreign_key: true
 
       t.timestamps
     end

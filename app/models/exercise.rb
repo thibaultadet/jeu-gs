@@ -3,5 +3,4 @@ class Exercise < ApplicationRecord
 
   validates :word, presence: true
   validates :level, presence: true
-  validates :done, presence: true
 end
